@@ -15,6 +15,7 @@
 <body>
     <div id="root">
         <input type="text" v-model="name">
+        <button v-on:click="choosePic">click</button>
         <h1>{{name}}</h1>
         <img :src="image" alt="">
     </div>
