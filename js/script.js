@@ -9,7 +9,7 @@ const { createApp } = Vue;
 const app = createApp({
     data(){
         return{
-            name : '',
+            name : 'Pirati',
             image : 'https://i.pinimg.com/originals/e9/91/80/e991804378163190adbd288a473edc85.jpg'
         }
     },
